@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Docker + Node.js App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue dans mon projet Node.js + Docker</h1>
+    <p>Développé par <strong>Yomna Boujelbene</strong></p>
+
+    <div class="buttons">
+      <button id="infoBtn">Afficher les infos du projet</button>
+      <button id="visitBtn">Compteur de visites</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<form id="contactForm">
+  <h2>Contactez-moi</h2>
+  <input type="text" id="name" name="name" placeholder="Votre nom" required />
+  <input type="email" id="email" name="email" placeholder="Votre email" required />
+  <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+  <button type="submit">Envoyer</button>
+</form>
+<div id="formResponse"></div>
+
+</html>
